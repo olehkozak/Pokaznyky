@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/street"
+        style="@style/AddressEditItemStyle"
+        android:layout_weight="2"
+        android:hint="@string/street"
+        android:inputType="textCapSentences" />
+
+    <EditText
+        android:id="@+id/building"
+        style="@style/AddressEditItemStyle"
+        android:layout_weight="1"
+        android:hint="@string/building" />
+
+    <EditText
+        android:id="@+id/apartment"
+        style="@style/AddressEditItemStyle"
+        android:layout_weight="1"
+        android:hint="@string/apartment"
+        android:inputType="number" />
+
+</LinearLayout>

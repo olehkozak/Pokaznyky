@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+    <ImageView
+        android:id="@+id/add_row_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@android:drawable/ic_menu_add"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/add_row_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/add_counter"
+        android:layout_margin="5dp"
+        android:gravity="center"/>
+
+</LinearLayout>

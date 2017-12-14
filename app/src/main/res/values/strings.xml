@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Показники</string>
+    <string name="mode_manual_button_text">Ввести</string>
+    <string name="mode_auto_button_text">Сканувати</string>
+    <string name="identity_number">Номер особового рахунку</string>
+    <string name="counter">Лічильник</string>
+    <string name="final_result">Кінцевий показник</string>
+    <string name="send">Відправити</string>
+    <string name="add_counter">Додати лічильник</string>
+    <string name="street">Вулиця</string>
+    <string name="building">Будинок</string>
+    <string name="apartment">Квартира</string>
+
+    <string name="galych_region">Галицький район</string>
+    <string name="franko_region">Франківський район</string>
+    <string name="lychakiv_region">Личаківський район</string>
+    <string name="syhiv_region">Сихівський район</string>
+    <string name="zalizn_region">Залізничний район</string>
+    <string name="shevchenko_region">Шевченківський район</string>
+
+    <string name="galych_mail">gal_r@lvk.lviv.ua</string>
+    <string name="franko_mail">fra_r@lvk.lviv.ua</string>
+    <string name="lychakiv_mail">lych_r@lvk.lviv.ua</string>
+    <string name="syhiv_mail">sih_r@lvk.lviv.ua</string>
+    <string name="zalizn_mail">zal_r@lvk.lviv.ua</string>
+    <string name="shevchenko_mail">she_r@lvk.lviv.ua</string>
+
+    <string-array name="region_mail">
+        <item>@string/galych_region</item>
+        <item>@string/franko_region</item>
+        <item>@string/lychakiv_region</item>
+        <item>@string/syhiv_region</item>
+        <item>@string/zalizn_region</item>
+        <item>@string/shevchenko_region</item>
+    </string-array>
+</resources>

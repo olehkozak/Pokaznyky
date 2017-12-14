@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/regions_spinner"
+        android:layout_width="wrap_content"
+        android:minWidth="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/identity_number"
+        android:hint="@string/identity_number"
+        android:inputType="number"
+        style="@style/EditDataViewStyle"/>
+
+    <include layout="@layout/address_layout"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/counter_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/send_email"
+        android:text="@string/send"
+        style="@style/ModeButtonStyle"
+        android:layout_gravity="center" />
+
+</LinearLayout>

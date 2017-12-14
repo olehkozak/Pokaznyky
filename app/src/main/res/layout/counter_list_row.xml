@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/counter_number"
+        android:hint="@string/counter"
+        style="@style/EditRowDataViewStyle"/>
+
+    <EditText
+        android:id="@+id/counter_result"
+        android:hint="@string/final_result"
+        style="@style/EditRowDataViewStyle"/>
+
+    <ImageView
+        android:id="@+id/counter_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_menu_delete" />
+
+</LinearLayout>

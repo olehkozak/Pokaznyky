@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/manual_input"
+        style="@style/ModeButtonStyle"
+        android:text="@string/mode_manual_button_text" />
+
+    <Button
+        android:id="@+id/auto_input"
+        style="@style/ModeButtonStyle"
+        android:text="@string/mode_auto_button_text" />
+
+</LinearLayout>
