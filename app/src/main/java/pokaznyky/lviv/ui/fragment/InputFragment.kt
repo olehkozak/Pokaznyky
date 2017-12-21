@@ -78,7 +78,7 @@ class InputFragment : Fragment() {
 
         var emptyCounters = 0
         for (counter in countersList) {
-            if (counter.number == -1 && counter.result == -1) {
+            if (counter.isEmpty()) {
                 emptyCounters++
                 continue
             }
@@ -86,10 +86,10 @@ class InputFragment : Fragment() {
                 Toast.makeText(context, "Дані лічильника некоректні", Toast.LENGTH_SHORT).show()
                 return false
             }
-            if (emptyCounters == countersList.size) {
-                Toast.makeText(context, "Показники відсутні", Toast.LENGTH_SHORT).show()
-                return false
-            }
+        }
+        if (emptyCounters == countersList.size) {
+            Toast.makeText(context, "Показники відсутні", Toast.LENGTH_SHORT).show()
+            return false
         }
         return true
     }

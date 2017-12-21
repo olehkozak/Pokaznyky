@@ -11,6 +11,10 @@ class Counter {
     var number: Int = -1
     var result: Int = -1
 
+    fun isEmpty() : Boolean{
+        return number == -1 && result == -1
+    }
+
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
         if (javaClass != other?.javaClass) return false
